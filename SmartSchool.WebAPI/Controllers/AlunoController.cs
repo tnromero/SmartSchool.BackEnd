@@ -39,7 +39,7 @@ namespace SmartSchool.WebAPI.Controllers
         }
 
         // GET <AlunoController>/5
-        [HttpGet("{id}")]
+        [HttpGet("{alunoId}")]
         public async Task<IActionResult> Get(int alunoId)
         {
             try
